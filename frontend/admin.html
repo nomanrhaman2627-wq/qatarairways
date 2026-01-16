@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Panel | QATAR AIRWAYS</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="nav-container">
+    <div class="logo">QATAR AIRWAYS – Agent</div>
+  </div>
+</header>
+
+<main class="admin-wrapper">
+  <section class="login-card" id="loginBox">
+    <h2>Agent Login</h2>
+    <input id="user" placeholder="Username" />
+    <input id="pass" type="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+  </section>
+
+  <section class="admin-card hidden" id="adminBox">
+    <h2>Create / Edit Ticket</h2>
+
+    <div class="grid">
+      <input id="name" placeholder="Passenger Name" />
+      <input id="ref" placeholder="Booking Reference" />
+      <input id="ticket" placeholder="Ticket Number" />
+      <input id="fare" placeholder="Fare Basis" />
+      <input id="bag" placeholder="Baggage" />
+    </div>
+
+    <h3>Flight Segments</h3>
+    <div class="grid">
+      <input id="f1from" placeholder="From" />
+      <input id="f1to" placeholder="To" />
+      <input id="f1date" placeholder="Date & Time" />
+      <input id="f1seat" placeholder="Seat" />
+      <input id="f1class" placeholder="Class" />
+    </div>
+
+    <button onclick="saveTicket()">Save Demo Ticket</button>
+  </section>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

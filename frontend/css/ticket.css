@@ -1,0 +1,12 @@
+.ticket-wrapper{max-width:1100px;margin:40px auto 80px;padding:0 20px}
+.ticket-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}
+.ticket-header h1{font-size:26px}
+.ticket-header button{background:#7a1537;color:#fff;border:none;padding:12px 26px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer}
+
+.ticket-card{background:#fff;border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.12);padding:26px;margin-bottom:24px}
+.ticket-card h2{font-size:18px;margin-bottom:16px}
+
+.ticket-card table{width:100%;border-collapse:collapse;font-size:14px}
+.ticket-card td,.ticket-card th{padding:12px;border-bottom:1px solid #e6e6e6;text-align:left}
+.ticket-card th{background:#fafafa;font-weight:600}
+

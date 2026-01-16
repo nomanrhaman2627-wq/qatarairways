@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking Details | QATAR AIRWAYS</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/ticket.css" />
+  <!-- REQUIRED for PDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.29/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="nav-container">
+    <div class="logo">QATAR AIRWAYS</div>
+    <nav class="nav">
+      <a>Explore</a><a>Book</a><a>Experience</a><a>Privilege Club</a><a>Help</a>
+    </nav>
+  </div>
+</header>
+
+<main class="ticket-wrapper">
+  <section class="ticket-header">
+    <h1>Booking details</h1>
+    <button onclick="downloadTicket()">Download e-ticket</button>
+  </section>
+
+  <section class="ticket-card">
+    <h2>Passenger information</h2>
+    <table>
+      <tr><td>Name</td><td id="pName"></td></tr>
+      <tr><td>Booking reference</td><td id="pRef"></td></tr>
+      <tr><td>Ticket number</td><td id="pTicket"></td></tr>
+      <tr><td>Status</td><td id="pStatus"></td></tr>
+    </table>
+  </section>
+
+  <section class="ticket-card">
+    <h2>Flight segments</h2>
+    <table id="flightTable">
+      <tr>
+        <th>From</th><th>To</th><th>Date</th><th>Seat</th><th>Class</th>
+      </tr>
+    </table>
+  </section>
+
+  <section class="ticket-card">
+    <h2>Fare & baggage</h2>
+    <table>
+      <tr><td>Fare basis</td><td id="pFare"></td></tr>
+      <tr><td>Baggage allowance</td><td id="pBag"></td></tr>
+    </table>
+  </section>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/pdf.js"></script>
+<script>
+  loadBooking();
+</script>
+</body>
+</html>

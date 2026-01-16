@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage Booking | QATAR AIRWAYS</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/manage.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="nav-container">
+    <div class="logo">QATAR AIRWAYS</div>
+    <nav class="nav">
+      <a>Explore</a><a>Book</a><a>Experience</a><a>Privilege Club</a><a>Help</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-overlay"></div>
+</section>
+
+<main class="card-wrapper">
+  <div class="manage-card">
+    <div class="tabs">
+      <span class="active">Manage booking</span>
+      <span>Check in</span>
+    </div>
+
+    <div class="form-row">
+      <input id="bookingRef" placeholder="Booking reference" />
+      <input id="lastName" placeholder="Last name" />
+      <button onclick="retrieveBooking()">Retrieve booking</button>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <span class="agent-link" onclick="location.href='admin.html'">Agent</span>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/manage.js"></script>
+</body>
+</html>

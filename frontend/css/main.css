@@ -1,0 +1,22 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#f4f6f8;color:#1a1a1a}
+a{text-decoration:none;color:inherit}
+
+.header{background:#ffffff;border-bottom:1px solid #e6e6e6}
+.nav-container{max-width:1200px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:700;color:#7a1537;letter-spacing:.4px}
+.nav a{margin-left:24px;font-size:14px;color:#333;cursor:pointer}
+.nav a:hover{color:#7a1537}
+
+.hero {
+  background: url('../assets/images/hero.jpg') center/cover no-repeat;
+}
+
+.hero{height:440px;background:url('../assets/images/hero.jpg') center/cover no-repeat;position:relative}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.55),rgba(0,0,0,.15))}
+
+.card-wrapper{max-width:1200px;margin:-110px auto 60px;padding:0 20px;position:relative;z-index:10}
+
+.footer{text-align:center;padding:40px 0;font-size:11px;color:#777}
+.agent-link{font-size:9px;color:#bbb;cursor:pointer}
+.agent-link:hover{color:#7a1537}

@@ -1,0 +1,13 @@
+.admin-wrapper{max-width:900px;margin:60px auto;padding:0 20px}
+.login-card,.admin-card{background:#fff;border-radius:16px;box-shadow:0 14px 34px rgba(0,0,0,.15);padding:30px}
+.login-card{max-width:380px;margin:auto;text-align:center}
+.login-card h2{margin-bottom:20px}
+.login-card input{width:100%;padding:14px;margin-bottom:14px;border-radius:10px;border:1px solid #ddd}
+.login-card button{width:100%;padding:14px;border-radius:999px;border:none;background:#7a1537;color:#fff;font-weight:600;cursor:pointer}
+
+.admin-card h2{margin-bottom:20px}
+.admin-card h3{margin:24px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.admin-card input{padding:14px;border-radius:10px;border:1px solid #ddd}
+.admin-card button{margin-top:20px;padding:14px 34px;border-radius:999px;border:none;background:#7a1537;color:#fff;font-weight:600;cursor:pointer}
+.hidden{display:none}

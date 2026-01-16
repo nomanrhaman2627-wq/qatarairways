@@ -1,0 +1,17 @@
+.manage-card{background:#ffffff;border-radius:18px;box-shadow:0 20px 40px rgba(0,0,0,.18);padding:34px}
+
+.tabs{display:flex;gap:40px;border-bottom:1px solid #e6e6e6;margin-bottom:28px}
+.tabs span{padding-bottom:12px;font-size:15px;color:#555;cursor:pointer}
+.tabs .active{color:#7a1537;font-weight:600;border-bottom:3px solid #7a1537}
+
+.form-row{display:flex;align-items:center;gap:18px}
+.form-row input{flex:1;padding:16px 18px;border:1px solid #dcdcdc;border-radius:12px;font-size:15px}
+.form-row input:focus{outline:none;border-color:#7a1537}
+
+.form-row button{background:#7a1537;color:#fff;border:none;padding:16px 36px;border-radius:999px;font-size:15px;font-weight:600;cursor:pointer;white-space:nowrap}
+.form-row button:hover{background:#64112e}
+
+@media(max-width:768px){
+  .form-row{flex-direction:column;align-items:stretch}
+  .form-row button{width:100%}
+}
